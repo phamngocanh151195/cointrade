@@ -1,4 +1,5 @@
 <? php  
+header("Content-Type: application/json");
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,29 +35,28 @@
                         <form>
                             <div class="form-group">
                                 <label class="control-label sr-only" for="email"></label>
-                                <input id="email" type="text" name="email" placeholder="Email" class="form-control" required>
+                                <input id="email1" type="text"  placeholder="Email" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label class="control-label sr-only" for="password"></label>
-                                <input id="password" type="password" name="password" placeholder="create password" class="form-control" required>
+                                <input id="password1" type="password" placeholder="create password" class="form-control" required>
                             </div>
                             <span>
-    <input id="box1" type="checkbox" class="with-font">
-    <label for="box1">Keep me signed in on this computer</label>
-
-  </span>
-                            <button type="submit" name="singlebutton" class="btn btn-default btn-lg  btn-block mt20">Sign</button>
+                                <input id="box1" type="checkbox" class="with-font">
+                                <label for="box1">Keep me signed in on this computer</label>
+                          </span>
+                            <button id = "signin" type="text"  class="btn btn-default btn-lg  btn-block mt20">Sign in</button>
                         </form>
                     </div>
-                    <p class="text-white">Not a member? <a href="#" class="text-yellow">Sign up</a><span class="pull-right"><a href="index.php" class="text-white">Back to Home</a> </span></p>
+                    <p class="text-white">Not a member? <a href="register.php" class="text-yellow">Sign up</a><span class="pull-right"><a href="index.php" class="text-white">Back to Home</a> </span></p>
                 </div>
                 <!-- /.login-form -->
             </div>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/login_signup.js"></script>
 </body>
 
 </html>

@@ -25,7 +25,7 @@
 
 <body>
     <!-- header-section-->
-    <div class="header-wrapper fixed-top">
+    <div class="header-wrapper fixed-top header-collapse">
         <div class="container">
             <div class="row">
                 <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12">
@@ -36,7 +36,7 @@
                     <div class="navigation">
                         <div id="navigation">
                             <ul>
-                                <li class="active"><a href="exchange.php">Bitcoin Widget</a></li>
+                                <li class="active"><a href="exchange.php">Exchange</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>

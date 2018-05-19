@@ -25,7 +25,7 @@
 
 <body>
     <!-- header-section-->
-    <div class="header-wrapper fixed-top  header-second">
+    <div class="header-wrapper fixed-top header-collapse">
         <div class="container">
             <div class="row">
                 <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12">
@@ -36,25 +36,7 @@
                     <div class="navigation">
                         <div id="navigation">
                             <ul>
-                                <li class="active"><a href="index.php">Home</a></li>
-                                   <li class="active"><a href="exchange.php">Bitcoin Widget</a></li>
-                               
-                                <li class="has-sub"><a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="blog-default.php">Blog Default</a></li>
-                                        <li><a href="blog-single.php">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-sub"><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="about.php">about</a></li>
-                                           <li><a href="faq.php">FAQ</a></li>
-                                        <li><a href="login.php">Login</a></li>
-                                           <li><a href="register.php">Sign up</a></li>
-                                        <li><a href="error-page.php">404 page</a> </li>
-                                        <li><a href="styleguide.php">styleguide</a> </li>
-                                    </ul>
-                                </li>
+                                <li class="active"><a href="exchange.php">Exchange</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
@@ -62,7 +44,7 @@
                     <!-- /.navigations-->
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 d-none d-xl-block d-lg-block">
-                     <div class="header-quick-info">
+                    <div class="header-quick-info">
                         <a href="login.php" class="btn btn-white btn-xs mr-1">Login</a>
                         <a href="register.php" class="btn btn-default btn-xs">Sign up</a>
                     </div>

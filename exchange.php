@@ -36,7 +36,7 @@
                     <div class="navigation">
                         <div id="navigation">
                             <ul>
-                                <li class="active"><a href="exchange.php">Bitcoin Widget</a></li>
+                                <li class="active"><a href="exchange.php">Exchange</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
@@ -370,8 +370,6 @@
     }
     dataSeries.dataPoints = dataPoints;
     data.push(dataSeries);
-
-    console.log(data);
 
     var chart = new CanvasJS.Chart("chartContainer1", {
         zoomEnabled: true,

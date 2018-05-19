@@ -1,4 +1,4 @@
-<?php 
+<? php 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +37,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="control-label sr-only" for="email"></label>
-                                <input id="email" type="text" name="email" placeholder="Email" class="form-control" required>
+                                <input id="email" type="text" name="email" placeholder="user name" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label class="control-label sr-only" for="password"></label>
@@ -56,7 +56,7 @@
                             <button type="submit" name="singlebutton" class="btn btn-default btn-lg  btn-block mb10">create Account</button>
                         </form>
                     </div>
-                    <p class="text-white">Already have an account?<a href="#" class="text-yellow"> Sign In</a> <span class="pull-right"><a href="index.php" class="text-white">Back to Home</a></span> </p>
+                    <p class="text-white">Already have an account?<a href="" class="text-yellow"> Sign In</a> <span class="pull-right"><a href="index.php" class="text-white">Back to Home</a></span> </p>
                 </div>
                 <!-- /.register-form -->
             </div>
@@ -64,7 +64,6 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
