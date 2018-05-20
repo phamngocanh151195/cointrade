@@ -1,4 +1,3 @@
-<? php 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -122,8 +121,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
-                        <h2>Contact <br>
-Information</h2>
+                        <h2>Contact <br>Information</h2>
                         <p class="lead">We are here to answer any questions you may have about cointrade. </p>
                     </div>
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 ">

@@ -426,7 +426,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menumaker.js"></script>
     <script src="js/return-to-top.js"></script>
-    <script src="js/navigation.js"></script>
     <script src="js/particles.min.js"></script>
     <script>
     /* ---- particles.js config ---- */

@@ -1,5 +1,3 @@
-<? php  
-header("Content-Type: application/json");
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,9 +53,8 @@ header("Content-Type: application/json");
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
     <script src="js/login_signup.js"></script>
 </body>
 
 </html>
-?>
