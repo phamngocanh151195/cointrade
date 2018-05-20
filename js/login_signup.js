@@ -1,6 +1,3 @@
-$('#form_login').submit(function () {
-    ahihe();
-})
 function ahihe() {
 	var x = JSON.stringify({ "username": $('#email1').val(), 
                 			"password": $('#password1').val()});
@@ -10,8 +7,8 @@ function ahihe() {
 	$.ajax({
 		 		type: "POST",
                 url: 'http://45.119.82.176:8000/login/user/',
-                withCredentials: true,
-                data: x,
+                data: $('#login').serialize(),
+                
                 success: function (response) {
                 	alert(response);
                     if (("token" in response) == false) {

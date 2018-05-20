@@ -30,20 +30,20 @@
                 <div class="offset-xl-3 col-xl-6 offset-lg-1 col-lg-10 col-md-12 col-sm-12 col-12 ">
                     <div class="login-form">
                         <h2 class="text-center mb30">Sign in to CoinTrade</h2>
-                        <form>
+                        <form id="login" onsubmit="return ahihe()" method="POST">
                             <div class="form-group">
                                 <label class="control-label sr-only" for="email"></label>
-                                <input id="email1" type="text"  placeholder="Email" class="form-control" required>
+                                <input id="email1" type="text"  name="username" placeholder="Email" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label class="control-label sr-only" for="password"></label>
-                                <input id="password1" type="password" placeholder="create password" class="form-control" required>
+                                <input id="password1" type="password" name="password" placeholder="create password" class="form-control" required>
                             </div>
                             <span>
                                 <input id="box1" type="checkbox" class="with-font">
                                 <label for="box1">Keep me signed in on this computer</label>
                           </span>
-                            <button id = "signin" type="text"  class="btn btn-default btn-lg  btn-block mt20">Sign in</button>
+                            <input type="submit" class="btn btn-default btn-lg  btn-block mt20" value="Signin">
                         </form>
                     </div>
                     <p class="text-white">Not a member? <a href="register.php" class="text-yellow">Sign up</a><span class="pull-right"><a href="index.php" class="text-white">Back to Home</a> </span></p>
