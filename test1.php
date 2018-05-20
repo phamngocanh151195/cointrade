@@ -10,6 +10,7 @@
     <script>
     function submitLoginForm() {
         console.log('hello');
+        alert($('#login').serialize());
     $.ajax({
                 url: 'http://45.119.82.176:8000/login/user/',
                 type: "post",   
