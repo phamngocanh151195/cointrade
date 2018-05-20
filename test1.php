@@ -33,14 +33,12 @@
     </script>
 </head>
 <body>
-
-
   <form class="form form--login framed" id="login" onsubmit = "return submitLoginForm()" method = "POST">
     <input type="text" placeholder="Username" class="input input--top" name="username" />
     <input type="password" placeholder="Password" class="input" name="password" />
     <input type="submit" value="Log in" class="input input--submit" />
     
-    <label for="toggle--signup" class="text text--small text--centered">New? <b>Sign up</b></label>
+    <a href="register.php"><label for="toggle--signup" class="text text--small text--centered">New? <b>Sign up</b></label></a>
   </form>
   <div class="fullscreen-bg"></div>
 </body>
