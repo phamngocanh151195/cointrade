@@ -1,12 +1,11 @@
 
-<? php
-
 <html lang="en">
 <head>
 	<title>Login V1</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="css/login.css" rel="stylesheet">
     <script>
     function submitLoginForm() {
         console.log('hello');
@@ -35,11 +34,15 @@
 </head>
 <body>
 
-    <form id="login" onsubmit="return submitLoginForm()" method="POST">
-             <input class="form-control" type="text" name="username" value="tuan"/>
-                <input class="form-control" type="password" name="password" value="123456"/>
-            <input type="submit" class="btn" value="Đăng nhập"/>
-    </form>
+
+  <form class="form form--login framed" id="login" onsubmit = "return submitLoginForm()" method = "POST">
+    <input type="text" placeholder="Username" class="input input--top" name="username" />
+    <input type="password" placeholder="Password" class="input" name="password" />
+    <input type="submit" value="Log in" class="input input--submit" />
+    
+    <label for="toggle--signup" class="text text--small text--centered">New? <b>Sign up</b></label>
+  </form>
+  <div class="fullscreen-bg"></div>
 </body>
 </html>
 
