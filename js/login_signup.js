@@ -1,14 +1,12 @@
 function ahihe() {
-	var x = JSON.stringify({ "username": $('#email1').val(), 
-                			"password": $('#password1').val()});
-	//console.log(x);
 	//alert($('#login').serialize());
-    alert(x);
+    alert($('#login').serialize());
 	$.ajax({
 		 		type: "POST",
                 url: 'http://45.119.82.176:8000/login/user/',
+                dataType : "json",
+                contentType: "application/json; charset=utf-8",
                 data: $('#login').serialize(),
-                
                 success: function (response) {
                 	alert(response);
                     if (("token" in response) == false) {
