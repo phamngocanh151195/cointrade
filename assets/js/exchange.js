@@ -17,8 +17,8 @@ function load_chart() {
         success: function(response) {
             ///load market            
             $('#table_market').empty();
-            console.log('price:' + response.data[response.data.length - 5+ type_c].price);
-            var price1 = response.data[response.data.length - 5+ type_c].price;
+            console.log('price:' + response.data[response.data.length - 5+ parseInt(type_c)].price);
+            var price1 = response.data[response.data.length - 5+ parseInt(type_c)].price;
             for (var i = response.data.length - 4; i <= response.data.length-1; i++) {
                     if (response.data[i].typecoin!=type_c) {
                         var price2 = response.data[i].price;
