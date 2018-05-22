@@ -140,7 +140,7 @@ select { -moz-appearance: none; border-radius: 0px; font-size: 14px; font-weight
 .select::after { -webkit-transition: .25s all ease; -o-transition: .25s all ease; transition: .25s all ease; }
 select option { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; cursor: pointer; padding: 10px; width: 100%; background-color: #fff; font-family: 'Source Sans Pro', sans-serif; }
 .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) { border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
-.table { width: 100%; max-width: 100%; margin-bottom: 1rem; background-color: transparent; }
+.table { width: 100%; max-width: 100%; margin-bottom: 1rem; background-color: transparent; text-align: center;}
 
 /*----- Placeholder color change -----*/
 input::-webkit-input-placeholder { color: #6d767a !important; }

@@ -64,7 +64,7 @@
 
 
             <div class="table_order_sell">
-                <table id="customers"  style="width:100%">
+                <table id="customers"  style="width:100%; text-align: center;">
                     <thread>
                         <tr>
                             <th>Datetime</th>
@@ -80,4 +80,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        function gotoLogin() {
+            
+        }
+    </script>
     <!-- /.exchange -->

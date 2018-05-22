@@ -152,6 +152,12 @@ function post_click() {
     obj.fromcoin = $('#input_number1').val();
     obj.totypecoin = $('#select_number2').find('option:selected').val();
     obj.tocoin = $('#input_number2').val();
+
+    if($('#button_sell_span').text()=='Login'){
+
+    }
+
+
     if (obj.fromcoin<=0||obj.tocoin<=0) {
         alert('Gía trị phải >0');
     }
