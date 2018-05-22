@@ -171,9 +171,9 @@ function post_click() {
             console.log('datlenh: '+ response);
             console.log(response);
             if (response.status == 'success') {
-                load_datlenh();    
                 mtip('', 'success', '', response.data);
                 khoplenh();
+                load_datlenh();    
             }
             else
             {

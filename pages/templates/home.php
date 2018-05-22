@@ -8,7 +8,7 @@
                     <!--  hero-block-->
                     <div class="hero-block">
                         <h1 class="hero-title mb30">Buy And Sell Digital Currency</h1>
-                        <p class="text-white">Praesent sodales ultricies dolorut feugiatnisi tincidunt utestib Aliquam enim nisl, efficitupendisse convallis nisl eu leo commodo tempus. ulumest urnatristi risus sitame.</p>
+                        <p class="text-white">Welcome to one of the most active crypto exchanges in the world.</p>
                     </div>
                     <!--  /.hero-block-->
                 </div>
@@ -52,17 +52,17 @@
             <div class="row ">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
                     <div class="mb20">
-                        <p class="lead">Quisque interdum arcutlacs sollicitudin cursus at vel ligellentesque eget fs none metus aliquet tepor veid arcpretiumute impdiet dolor ultriceras dapibus.</p>
+                        <p class="lead">Take advantage of dozens of technical indicators and our robust API to inform and execute your trading strategy.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
                     <div class="mb20">
-                        <p>Nam non convallis mielaoreet enimuspendis facibus magna elitmolestie ultricies ligula dign issllus rutrume egestas gravida. Etiam sodales volutpat enut ultricese sem varius vitaeis vel dui commod convstie ultricies ligula dignissllus. </p>
+                        <p>To protect your money, we keep most deposits in air-gapped cold storage. Online, we have only what’s needed for active trading. We also monitor activity 24/7 to block any suspicious activity. </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 ">
                     <div class="mb20">
-                        <p>Seronse convallis mielaoreet enimuspendis facibuses magna elitmolestie ultricies ligula dignissllus rutrume egestas gravida. Etiam semonvallis diammag naestie ultricies ligulaser sodales volutpat enut ultricese. </p>
+                        <p>Access the latest tokens and technologies that are pushing the industry forward. Developers, your brightest ideas are welcome.</p>
                     </div>
                 </div>
             </div>
@@ -112,8 +112,8 @@
                 <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="pdt40">
                         <h2>Buy and Sell Digital Currency</h2>
-                        <p class="lead">Nam non convallis mielaoreet enimuspendis facibuse magna elit, molestie ultricies ligula dignissllus rutrumi egestas gravida. </p>
-                        <p>Nam non convallis mielaoreet enimuspendis facibuse magna eliltricies ligula dignissllus rutrumi egestas gravida. </p>
+                        <p class="lead">Take advantage of dozens of technical indicators and our robust API to inform and execute your trading strategy. </p>
+                        <p>We also monitor activity 24/7 to block any suspicious activity. </p>
                         <a href="<?php echo MAIN_URL ?>/signup" class="btn btn-default">Sign up</a>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 col-md-12 col-sm-12 col-12 text-center">
                     <div class="section-title">
                         <h2>Simple Steps to Get Started</h2>
-                        <p>Morbi egestas dictum sid volutpat est pharete hendrerit quis tortoret urabitur quis sceleest pharetu.</p>
+                        <p>To protect your money, we keep most deposits in air-gapped cold storage. Online, we have only what’s needed for active trading.</p>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         <div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="pdt120">
                                 <h3>Sign up</h3>
-                                <p>Morbi egestas dictum sid volutpat est pharetra eraesente hendrerit quis tortoret urabitur quis scelerisqetpat est pharetra eraesente hendreri est pharetra eraesente hendrerit . </p>
+                                <p>Access the latest tokens and technologies that are pushing the industry forward . </p>
                             </div>
                         </div>
                         <!-- /.Step-1 -->
@@ -173,7 +173,7 @@
                         <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
                             <div class="pdt120">
                                 <h3>Connect</h3>
-                                <p>Morbi egestas dictum sid volutpat est pharetra eraesente hendrerit quistortoret urabitur quis scelerisque tellusest paesenteorbi egestas dictum sid volutpat est . </p>
+                                <p>Access the latest tokens and technologies that are pushing the industry forward . </p>
                             </div>
                         </div>
                         <!-- /.Step-2 -->
@@ -202,80 +202,6 @@
         </div>
     </div>
     <!--/. Process Step -->
-    <!-- feature-section -->
-    <div class="space-medium bg-light">
-        <div class="container">
-            <div class="row ">
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-shield"></i></div>
-                        <div class="feature-content">
-                            <h4>Safe & Secure</h4>
-                            <p>Morbi egestas dictum sid volutpat est pharete hendrerit quis tortoret urabitur quis sceleest pharetu.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-brainstorming"></i></div>
-                        <div class="feature-content">
-                            <h4>Experts Support</h4>
-                            <p>Squis tortoret urabitur quis sceleritue tellus dictum magna elitmolestie sen ultricies ligula dignissime.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-smartphone"></i></div>
-                        <div class="feature-content">
-                            <h4>Mobile Apps</h4>
-                            <p>Morbi egestas dictum sid volutpat est pharete hendrerit quis tortoret urabitur quis sceleest pharetu.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-wallet"></i></div>
-                        <div class="feature-content">
-                            <h4>Wallet</h4>
-                            <p>Morbi egestas dictum sid volutpat est pharete hendrerit quis tortoret urabitur quis sceleest pharetu.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-loan"></i></div>
-                        <div class="feature-content">
-                            <h4>Instant Exchange</h4>
-                            <p>Squis tortoret urabitur quis sceleritue tellus dictum magna elitmolestie sen ultricies ligula dignissime.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-                <!-- feature-left -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="feature-left">
-                        <div class="feature-icon"><i class="icon-exchange"></i></div>
-                        <div class="feature-content">
-                            <h4>Recuring Buys</h4>
-                            <p>Morbi egestas dictum sid volutpat est pharete hendrerit quis tortoret urabitur quis sceleest pharetu.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.feature-left -->
-            </div>
-        </div>
-    </div>
-    <!-- /.feature-section -->
     <!-- cta-section -->
     <div class="cta-section">
         <div class="container">

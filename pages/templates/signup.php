@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
         <title><?php echo $pageTitle ?></title>
+        <link rel="icon" href="http://icons.iconarchive.com/icons/froyoshark/enkel/512/Bitcoin-icon.png" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="<?php echo CSS ?>/login.css">
@@ -12,8 +13,8 @@
             <input id="username" type="text" placeholder="Username" class="input" name="username" />
             <input type="password" placeholder="Password" class="input" name="password" />
             <input type="submit" value="Sign Up" class="input input--submit" />
-            <a href="<?php echo MAIN_URL ?>/login"><label for="toggle--signup" class="text text--small text--centered"><b>Login</b></label></a>
-    <a href="<?php echo MAIN_URL ?>/home"><label for="toggle--signup" class="text text--small text--centered"><b>Home</b></label></a>
+            <a href="<?php echo MAIN_URL ?>/login"><label for="toggle--signup" class="text text--small text--centered"><b style="font-size: 17px;">Login</b></label></a>
+    <a href="<?php echo MAIN_URL ?>/home"><label for="toggle--signup" class="text text--small text--centered"><b style="font-size: 20px;">Home</b></label></a>
             
         </form>
         <div class="fullscreen-bg"></div>

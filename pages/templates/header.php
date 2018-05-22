@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title><?php echo $pageTitle ?></title>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/froyoshark/enkel/512/Bitcoin-icon.png" />
     <!-- Bootstrap -->
     <link href="<?php echo CSS ?>/bootstrap.min.css" rel="stylesheet">
     <!-- Style CSS -->
