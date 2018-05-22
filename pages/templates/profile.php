@@ -25,6 +25,7 @@
                             <th>Amount</th>
                             <th>Price</th>
                             <th>UserID</th>
+                            <th></th>
                         </tr>
                     </thread>
                     <tbody id="queue_transaction" style=" height: 30px;overflow-y: scroll;">

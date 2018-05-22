@@ -56,7 +56,6 @@ function submitLoginForm () {
                 } else if ($('.popup-map').length) {
                     location.reload();
                 } else {
-                    //location.href = MAIN_URL;
                     goBack();
                 }
             }
@@ -80,33 +79,17 @@ function submitSignupForm () {
         type: 'post',
         data: $('#signup').serialize(),
         success: function (response) {
-            console.log(response);
-            if (("token" in response) == false) {
-                mtip('', 'error', 'Lỗi', response.message);
-            } else {
+            if (response.status=='success') {
                 __token = response.token;
                 localStorage.setItem("token" , __token);
                 localStorage.setItem("username" , $('#username').val());
                 localStorage.setItem("login_time" , Math.floor(Date.now() / 1000));
-                console.log(__token);
-                mtip('', 'success', '', 'Đăng nhập thành công! Đang chuyển hướng...');
-                if ($('.popup:not(".popup-map") .load_login_form').length) {
-                    remove_popup();
-                } else if ($('.popup-map').length) {
-                    location.reload();
-                } else {
-                    //location.href = '<?php echo MAIN_URL?>';
-                    goBack();
-                }
+                goBack();
             }
         },
         error: function (a, b, c) {
             console.log(a);
-            if (c == 'Unauthorized') {
-                mtip('', 'error', '', 'Could not verify!');
-            } else {
-                mtip('', 'error', '', 'Lỗi hệ thống! Vui lòng liên hệ với quản trị viên để được hỗ trợ sớm nhất!');
-            }
+            location.reload();
         }
     });
     return false

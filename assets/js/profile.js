@@ -66,7 +66,8 @@ function load_queue() {
                                 <td>'+response.data[i].id+'</td>\
                                 <td>'+response.data[i].fromcoin +coin[response.data[i].fromtypecoin-1]+'</td>\
                                 <td>'+response.data[i].tocoin +coin[response.data[i].totypecoin-1]+'</td>\
-                                <td>'+response.data[i].userid+'</td></tr>';
+                                <td>'+response.data[i].userid+'</td>\
+                                <td><img src="assets/images/delete.png" onclick="delete_tran('+response.data[i].id+')"></td></tr>';
                 //console.log(div);
                 $('#queue_transaction').append(div);
             }
@@ -101,4 +102,25 @@ function load_history() {
             console.log(a);
         }
     });
+}
+
+function delete_tran(id) {
+    $.ajax({
+                url: 'http://45.119.82.176:8000/users/xoalenh/',
+                type: 'delete',
+                data: {"id": id},
+                datatype: "json",
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader('Authorization', __token);
+                },
+                success: function(response){
+                    if (response.status=='success') {
+                        alert('Succesful');
+                        load_queue();
+                    }
+                },
+                error: function(a, b, c) {
+                    console.log(a);
+                }
+            });
 }
