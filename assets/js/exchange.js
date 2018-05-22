@@ -153,8 +153,7 @@ function post_click() {
     obj.totypecoin = $('#select_number2').find('option:selected').val();
     obj.tocoin = $('#input_number2').val();
     if (obj.fromcoin<=0||obj.tocoin<=0) {
-        alert('hihi');
-        mtip('', 'Error', '', 'Gía trị phải >0');
+        alert('Gía trị phải >0');
     }
 
     if($('#button_sell_span').text()=='Post'&&obj.fromcoin>0&&obj.tocoin>0){
@@ -171,13 +170,14 @@ function post_click() {
             console.log('datlenh: '+ response);
             console.log(response);
             if (response.status == 'success') {
-                mtip('', 'success', '', response.data);
+                //mtip('', 'success', '', response.data);
                 khoplenh();
                 load_datlenh();    
             }
             else
             {
-                mtip('', 'error', 'Error', response.message);
+                //mtip('', 'error', 'Error', response.message);
+                alert(response.message);
             }
             
         },
