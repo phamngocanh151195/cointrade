@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 $__pattern = '/cointrade';
 
 define('MAIN_PATH', './');
-define('MAIN_URL', 'http://localhost'.$__pattern);
+define('MAIN_URL', 'http://45.119.82.176'.$__pattern);
 define('ASSETS', MAIN_URL.'/assets');
 define('CSS', ASSETS.'/css');
 define('IMG', ASSETS.'/images');
