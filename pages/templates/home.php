@@ -8,7 +8,7 @@
                     <!--  hero-block-->
                     <div class="hero-block">
                         <h1 class="hero-title mb30">Buy And Sell Digital Currency</h1>
-                        <p class="text-white">Welcome to one of the most active crypto exchanges in the world.</p>
+                        <p class="text-white"></p>
                     </div>
                     <!--  /.hero-block-->
                 </div>
@@ -20,18 +20,6 @@
     <div class="bg-light">
         <div class="container">
             <div class="row ">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 ">
-                    <p class="text-primary pdt10 pdb10">Bitcoin BTC <strong>$9919.41</strong> </p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 ">
-                    <p class="text-primary pdt10 pdb10">Ethereum ETH <strong>$759.41</strong> </p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 ">
-                    <p class="text-primary pdt10 pdb10">Ripple XRP <strong>$0.8612</strong> </p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 ">
-                    <p class="text-primary pdt10 pdb10">Litecoin LTC <strong>$184.91</strong> </p>
-                </div>
             </div>
         </div>
     </div>
