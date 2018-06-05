@@ -56,7 +56,7 @@ function submitLoginForm () {
                 } else if ($('.popup-map').length) {
                     location.reload();
                 } else {
-                    //goBack();
+                    goBack();
                 }
             }
         },
