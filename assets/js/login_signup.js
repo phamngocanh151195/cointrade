@@ -46,7 +46,7 @@ function submitLoginForm () {
                 mtip('', 'error', 'Lỗi', response.message);
             } else {
                 __token = response.token;
-                localStorage.setItem("token" , "");
+                localStorage.setItem("token" , "__token");
                 localStorage.setItem("username" , $('#username').val());
                 localStorage.setItem("login_time" , Math.floor(Date.now() / 1000));
                 console.log(__token);
