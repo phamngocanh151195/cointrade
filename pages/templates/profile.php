@@ -7,6 +7,7 @@
             location.href = '<?php echo MAIN_URL ?>/home';
         }
     });
+    
 </script>
 
 <div style="width: 100%; displayd: inline-block; height: 400px;">

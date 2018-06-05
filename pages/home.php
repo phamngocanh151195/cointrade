@@ -1,5 +1,5 @@
 <?php  
-	$pageTitle = 'Coin Trade TMĐT';
+	$pageTitle = 'MTA-CoinTrade';
 	
 	include 'pages/templates/header.php';
 

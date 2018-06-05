@@ -1,5 +1,5 @@
 <?php  
-	$pageTitle = 'Exchange';
+	$pageTitle = 'MTA-Cointrade Exchange';
 	include 'pages/templates/header.php';
 	
 	$config->addJS('exchange.js');

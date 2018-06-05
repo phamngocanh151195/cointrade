@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo CSS ?>/login.css">
 </head>
 <body>
-        <form class="form form--login framed" id="signup" onsubmit = "return submitSignupForm ()" method = "POST">
+        <form class="form form--login framed" id="signup" onsubmit = "return submitSignupForm ()" method = "POST" action="<?php echo MAIN_URL ?>/login">
             <input type="text" placeholder="Name" class="input input--top" name="name" />
             <input id="username" type="text" placeholder="Username" class="input" name="username" />
             <input type="password" placeholder="Password" class="input" name="password" />
