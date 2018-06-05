@@ -97,7 +97,7 @@ function submitSignupForm () {
 
 
 $(function() {
-    if (localStorage.getItem('username')===null||localStorage.getItem('username')==='') {
+    if (localStorage.getItem('token')===null||localStorage.getItem('token')==='') {
         $('#login_button').show();
         $('#signup_button').show();
         $('#profile_button').hide();
